@@ -1,0 +1,15 @@
+﻿<Window x:Class="Euclid.Service.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Euclid.Service"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Insert some records" HorizontalAlignment="Left" Margin="271,138,0,0" VerticalAlignment="Top" Width="249" Click="Button_Click" Height="73" FontWeight="Bold" FontSize="18"/>
+        <Label Visibility="Hidden" Content="Time Taken" HorizontalAlignment="Left" Margin="287,289,0,0" VerticalAlignment="Top" Width="78"/>
+        <TextBlock Visibility="Hidden" HorizontalAlignment="Left" Margin="393,285,0,0" TextWrapping="Wrap" Text="{Binding Path=Time}" VerticalAlignment="Top" Height="30" Width="127" FontSize="18"/>
+
+    </Grid>
+</Window>
